@@ -2,37 +2,37 @@ import java.util.Scanner;
 
 public class SuperMalHecho {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Escriba el nombre del producto 1:");
-        String a = s.nextLine();
+        String a = scanner.nextLine();
         System.out.println("Ingrese el precio:");
-        double p1 = s.nextDouble();
-        s.nextLine();
+        double p1 = scanner.nextDouble();
+        scanner.nextLine();
 
         System.out.println("Escriba el nombre del producto 2:");
-        String b = s.nextLine();
+        String b = scanner.nextLine();
         System.out.println("Ingrese el precio:");
-        float p2 = s.nextFloat();
-        s.nextLine();
+        float p2 = scanner.nextFloat();
+        scanner.nextLine();
 
         System.out.println("Escriba el nombre del producto 3:");
-        String c = s.nextLine();
+        String c = scanner.nextLine();
         System.out.println("Ingrese el precio:");
-        int p3 = s.nextInt();
-        s.nextLine();
+        int p3 = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Escriba el nombre del producto 4:");
-        String d = s.nextLine();
+        String d = scanner.nextLine();
         System.out.println("Ingrese el precio:");
-        long p4 = s.nextLong();
-        s.nextLine();
+        long p4 = scanner.nextLong();
+        scanner.nextLine();
 
         System.out.println("Escriba el nombre del producto 5:");
-        String e = s.nextLine();
+        String e = scanner.nextLine();
         System.out.println("Ingrese el precio:");
-        short p5 = s.nextShort();
-        s.nextLine();
+        short p5 = scanner.nextShort();
+        scanner.nextLine();
 
         double imp1 = (p1 * 0.19);
         double desc1 = (p1 > 10000) ? (p1 * 0.10) : 0;
